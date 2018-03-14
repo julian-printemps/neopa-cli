@@ -1,10 +1,9 @@
-# Foundation CLI
+# Neopa Boilerplate CLI
 
-This is the command-line interface for [Foundation](https://foundation.zurb.com) family of frameworks.. It downloads and installs blank templates in any of the three Foundation frameworks:
+This is the command-line interface for Neopa Boilerplate. It downloads and installs blank templates in any of the two Neopa front frameworks:
 
-- [Foundation for Sites](https://foundation.zurb.com/sites), a framework for responsive websites.
-- [Foundation for Apps](https://foundation.zurb.com/apps), a framework for responsive web apps.
-- [Foundation for Emails](https://foundation.zurb.com/emails), a framework for responsive email.
+- [Neopa Boilerplate - Bulma](https://github.com/julian-printemps/neopa-boilerplate)
+- [Neopa Boilerplate - Foundation](https://github.com/julian-printemps/neopa-boilerplate)
 
 ## Requirements
 
@@ -17,45 +16,45 @@ You'll need the following software installed to get started.
 
 ## Installing
 
-The Foundation CLI is installed through npm.
+The Neopa Boilerplate CLI is installed through npm.
 
 ```bash
-npm install -g foundation-cli
+npm install -g neopa-cli
 ```
 
-This will add the `foundation` command to your system.
+This will add the `neopa` command to your system.
 
 ### Updating
 
 The CLI periodically gets updates that add features or fix bugs. Use npm to upgrade the CLI to the newest version.
 
 ```bash
-npm update -g foundation-cli
+npm update -g neopa-cli
 ```
 
 To check what version you currently have, use `-v`.
 
 ```bash
-foundation -v
+neopa -v
 ```
 
 ## Commands
 
 ### New
 
-Starts the setup process for a new Foundation project. The CLI will ask you which framework you want to use and a folder name for the project.
+Starts the setup process for a new Neopa Boilerplate project. The CLI will ask you which framework you want to use and a folder name for the project.
 
 ```bash
-foundation new
+neopa new
 ```
 
 ### Watch
 
-While inside of your app's folder, use the `watch` command to assemble your app and run a test server.
+While inside of your app's folder, use the `npm run dev` command to assemble your app and run a test server.
 
 ```bash
 cd appName
-foundation watch
+npm run dev
 ```
 
 While this process is running, you can view the assembled app in your browser, at this URL:
@@ -64,22 +63,20 @@ While this process is running, you can view the assembled app in your browser, a
 http://localhost:8080
 ```
 
-While the server is running, any changes you make to your HTML, Sass, or JavaScript will automatically be processed and added to your live app.
-
 ### Build
 
-To build your app for production, use `foundation build`.
+To build your app for production, use `npm run build`.
 
 ```bash
-foundation build
+npm run build
 ```
 
 ### Update
 
-Updates your Bower packages, which includes Foundation. Run this command when you want to update an existing project to the newest version of Foundation.
+Updates your packages, which includes Neopa Boilerplate. Run this command when you want to update an existing project to the newest version of Neopa Boilerplate.
 
 ```bash
-foundation update
+neopa update
 ```
 
 ### Help
@@ -87,11 +84,5 @@ foundation update
 Lists all available commands in the CLI.
 
 ```bash
-foundation help
-```
-
-Add a command name at the end to learn how a specific command works.
-
-```bash
-foundation help new
+neopa help
 ```
