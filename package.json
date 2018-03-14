@@ -2,6 +2,7 @@
   "name": "neopa-cli",
   "version": "1.0.0",
   "description": "Command-line interface for Neopa boilerplate.",
+  "preferGlobal": true,
   "keywords": [
     "neopa",
     "cli",
@@ -34,7 +35,7 @@
   "homepage": "https://neopa.jp",
   "repository": {
     "type": "git",
-    "url": "https://github.com/julian-printemps/neopa-cli"
+    "url": "git+https://github.com/julian-printemps/neopa-cli"
   },
   "bugs": {
     "url": "https://github.com/julian-printemps/neopa-cli/issues"
@@ -42,9 +43,8 @@
   "scripts": {
     "test": "node bin/neopa.js new"
   },
-  "preferGlobal": true,
   "engines": {
-    "node": ">=4.0"
+    "node": ">=6.0.0"
   },
   "license": "MIT",
   "devDependencies": {
