@@ -7,7 +7,7 @@
     "cli",
     "scaffold"
   ],
-  "author": "NEOPA <contact@neopa.jp> (https://neopa.jp)",
+  "author": "Julian <julian.printemps@gmail.com> (https://neopa.jp)",
   "main": "lib/index.js",
   "bin": {
     "neopa": "./bin/neopa.js"
