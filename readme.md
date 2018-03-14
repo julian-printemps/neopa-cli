@@ -1,6 +1,6 @@
-# Neopa Boilerplate CLI
+# Neopa boilerplate CLI
 
-This is the command-line interface for Neopa Boilerplate. It downloads and installs blank templates in any of the two Neopa front frameworks:
+This is the command-line interface for Neopa Boilerplate. It downloads and installs blank templates in any of the two Neopa Vue.js frameworks:
 
 - [Neopa Boilerplate - Bulma](https://github.com/julian-printemps/neopa-boilerplate)
 - [Neopa Boilerplate - Foundation](https://github.com/julian-printemps/neopa-boilerplate)
