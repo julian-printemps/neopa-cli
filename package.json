@@ -1,6 +1,6 @@
 {
   "name": "neopa-cli",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "Command-line interface for Neopa boilerplate.",
   "preferGlobal": true,
   "keywords": [
