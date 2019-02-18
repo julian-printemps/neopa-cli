@@ -1,9 +1,9 @@
 # Neopa boilerplate CLI
 
-This is the command-line interface for Neopa Boilerplate. It downloads and installs blank templates in any of the two Neopa Vue.js frameworks:
+This is the command-line interface for Neopa Boilerplate. It downloads and installs blank templates in any of the two Neopa Nuxt.js frameworks:
 
-- [Neopa Boilerplate - Bulma](https://github.com/julian-printemps/neopa-boilerplate)
-- [Neopa Boilerplate - Foundation](https://github.com/julian-printemps/neopa-boilerplate)
+- [Neopa Boilerplate - Basic](https://gitlab.neopa.jp/neopa/neopa-boilerplate-foundation)
+- [Neopa Boilerplate - Admin](https://gitlab.neopa.jp/neopa/neopa-admin-boilerplate)
 
 ## Requirements
 
@@ -60,7 +60,7 @@ npm run dev
 While this process is running, you can view the assembled app in your browser, at this URL:
 
 ```
-http://localhost:8080
+http://localhost:3000
 ```
 
 ### Build
@@ -69,6 +69,14 @@ To build your app for production, use `npm run build`.
 
 ```bash
 npm run build
+```
+
+### Generate
+
+To build your pre-rendered app for production, use `npm run generate`.
+
+```bash
+npm run generate
 ```
 
 ### Update
